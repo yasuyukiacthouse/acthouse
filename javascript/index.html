@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<hr>
+<div id="test">テストします</div>
+<hr>
+<div id="container"></div>
+<button id="add-div">子要素を追加</button>
+<button id="remove-div-bottom">子要素を後ろから削除</button>
+<button id="remove-div-top">子要素を頭から削除</button>
+
+<hr>
+<div id="timer-display"></div>
+<button id="start" type="button">スタート</button>
+<button id="stop" type="button">すっとぷ</button>
+<button id="delay" type="button">３秒後にアラート</button>
+<hr>
+<img src="rad.jpg" id="image" slt="ラッド">
+<hr>
+<div id="div1"></div>
+<div id="div2">こんにちは</div>
+<hr>
+	<button id="open-self">自画面で開く</button>
+	<button id="open-new">別タブで開く</button> 
+	<hr>
+	<input type="text" id="from" value="1">
+	<input type="text" id="to" value="10">
+	<botton id="btn4" type="button">累計</botton>
+	<hr>
+	<input type="text" id="text2" value="0">
+	<button id="btn3" type="button">配列チェック</button>
+	<hr>
+	<input type="text" id="text1">
+	<button id="btn1" type="button">値チェック</button>
+	<button id="btn2" type="button">値チェック(switch)</button>
+	<hr>
+		<button type="button" id="alertdesu">アラート表示</button>
+		<button type="button" id="confirmdesu">確認ダイアログ表示</button>
+		<button type="button" id="promptdesu">入力ダイアログ表示</button>
+		<hr>
+		<p id="par1" class="p">レッドホース</p>
+		<p id="par2" class="p">ピルセン</p>
+		<p id="par3">ライト</p>
+		<button type="button" onclick="changeString('黒ラベル','エビス','おおん')">文字列変更</button>
+		<a href="javascript:changeString('ハイネケン','バドワイザー','お酒')">リンクで大文字変更</a>
+		<button type="button" id="btn2" onclick="changeString('本当わからん','うーんわからん','なんでわからんのだ')">わかった？</button>
+		<button type="button" onclick="changeString('本当眠い','まじねむ','頭痛い')">眠い</button>
+		<button type="button" id="btn">イベントリスナで変更</button>
+
+		<script type="text/javascript" src="script.js">
+		</script>
+		<!-- どこでも書けるが、bodyの直前が良い -->
+</body>
+</html>

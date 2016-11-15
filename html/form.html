@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>フォーム</title>
+	<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+	<form action=""　method="post"><!-- アクション送られる場所 -->		
+	<fieldset>
+		<legend>お名前; </legend>
+		<input type="text" name="name" value="やす"><!-- name大事。サーバーに値を --><!-- labelは、文字もクリックすると、チェックが付く指令だが、なくても -->
+		</fieldset>
+		<fieldset>
+			<legend>郵便番号</legend>
+				<input type="text" name="zipCode" size="20"
+				maxlength="8" pattern="\d{3}-?\d{4}" title="3桁+ハイフン(-)で入力してください。" placeholder="123-4567">
+		</fieldset>
+		<fieldset>
+			<legend>都道府県</legend>
+			<select name="prefs">
+			<optgroup label="----選択しないでください----">----選択しないでください----</optgroup>
+			<optgroup label="勝ち組"><!-- このlavelは属性ので他と違う -->
+				<option value="東京">東京</option>
+				<option value="大阪府">大阪府</option>	
+			</optgroup>
+			<optgroup label="負け組">
+				<option value="愛知県" selected>愛知県</option>
+				<option value="北海道">北海道</option>
+				<option value="鹿児島県">鹿児島県</option>
+			</optgroup>
+			</select>
+		</fieldset>
+		<fieldset>
+		<legend>ショッピングモール</legend>
+		<input type="text" name="mall" size="30" list="malls" placeholder="ショッピングモールの名前書いて" required>
+		<!-- datalist#malls>option[value=""]*5 -->
+			<datalist id="malls">
+				<option value="アヤラセンター"></option>
+				<option value="SMモール"></option>
+				<option value="SMシーサイド"></option>
+				<option value="カントリーモール"></option>
+				<option value="JYスクエアモール"></option>
+			</datalist>
+		</fieldset>
+		<fieldset>
+			<legend>パスワード</legend>
+			<input type="password" name="password" size="30" maxlength="18" title="半角英数字で入力してください" required>
+		</fieldset>
+		<fieldset>
+			<legend>乗り物</legend>
+				<label>
+				<input type="checkbox" name="vehicle" value="ジプニー" checked>タクシー
+				</label>
+				<label>
+				<input type="checkbox" name="vehicle" value="バイタク">バイタク
+				</label>
+				<label>
+				<input type="checkbox" name="vehicle" value="ジプニー">ジプニー
+				</label>
+				<label>
+				<input type="checkbox" name="vehicle" value="その他">その他
+				</label>
+		</fieldset>
+		<fieldset>
+			<legend>ご回答;</legend><!-- legendはタイトル -->
+				<label>
+					<input type="radio" name="reply" 
+					checked>回答1
+					<!-- radio=何個かあって一個選ぶ -->
+				</label>				
+				<label>
+					<input type="radio" name="reply" value="回答2">
+					回答２
+				</label>				
+				<label>
+					<input type="radio" name="reply" value="回答3"><!-- valueは値 -->
+					回答３
+				</label>				
+				<label>
+					<input type="radio" name="reply1" value="回答3">
+					回答３
+				</label>
+				<label>
+					<input type="radio" name="reply1" value="回答3	"	>
+					回答３
+				</label>
+				</fieldset>
+				<fieldset>
+					<legend>画像</legend>
+					<input type="file" name="image" accept="image/png">
+					<!-- acceptはファイルを絞りこみ -->
+					<!-- fileを作る場合、formにmethodはpost enctype=multipart/form-dataを書かないといけない -->
+				</fieldset>
+				<fieldset>
+					<legend>感想</legend>
+					<textarea name="impression" cols="30" rows="10" placeholder="なんかおもしろいこと言ってみろよ" readonly></textarea>
+				</fieldset>
+			<input type="hidden" name="last-vehicle" value="タクシー">
+			<p>
+				<input type="submit" value="送信するの"><!-- submit=送られる -->
+				<input type="button">
+				<button>buttonタグでサブミット</button>
+			</p>
+	</form>
+</body>
+</html>

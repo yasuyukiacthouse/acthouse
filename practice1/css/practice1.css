@@ -1,0 +1,222 @@
+	body {
+		background: url(../images/apple.jpg);
+		margin: 0;
+		padding: 0;
+		font-family: Arial, sans-serif;
+		color: #fff;
+		width: 900px;
+		/*background: rgba(0,0,0,0.8);*/
+	}
+	header {
+		background: #333333;
+		text-align: center;
+		border: gold 10px solid;
+		padding: 0;
+		margin: 20px auto;
+		line-height: 30px;
+		width: 90%;
+		/*検証で見たときなぜheaderが全体に適応されている？*/
+	}
+	footer {
+		background: #333;
+		font: bold 70%/1em Arial, Helvetica, sans-serif;
+		text-align: center;
+		color: #fff;
+		padding: 10px;
+	　clear: both;
+	}
+		div#sidebar {
+			width: 30%;
+			float: left;
+			margin: 0 0 auto;
+		}
+		dl.sidemenu {
+			background: gold;
+			width: 240px;
+			margin: 10px	 auto;
+		}
+		dl.sidemenu dt {
+			background: url(../../html/images/images3/dt_bg.jpg) repeat-x;
+			height: 32px;
+			width: 240px;/*省略可*/
+			font-size: 15px;
+			line-height: 32px;
+			font-weight: bold;
+			color: #fff;
+			text-indent: 0.7em;
+			margin-bottom: 5px;
+		}
+		dl.sidemenu dd a {
+			color: black;
+			/*padding-right: 30px;*/
+		}
+		table {
+			width:30% ;
+			margin: 20px auto;
+			border: 2px solid rgba(200,200,200,0.6);
+			border-spacing: 0;
+			border-collapse: collapse;
+		}
+		table tr th, table tr td {
+			border: 1px solid rgba(200,200,200,0.6);
+			font-size: 18px
+			/*padding: 7px;*/
+		}
+		div.bb-8-oya {
+			position: relative;
+			margin: 100px auto;
+		}
+		div.bb-8-oya .bb-8-up {
+			background: white;
+			width: 120px;
+			height: 70px;
+			margin: 30px 80px 0;
+			border-radius: 100px 100px 50px 50px/100px 100px 20px 20px;
+		}
+		div.bb-8-oya .bb-8-down {
+			background: white;
+			width: 200px;
+			height: 200px;
+			margin: 0 40px 0;
+			border-radius: 100px;
+		}
+		div.bb-8-oya .bb-8-up-in {
+			background: black;
+			width: 35px;
+			height: 35px;
+			position: absolute;
+			top: 15px;
+			left: 123px;
+			border-radius: 30px 30px 30px 30px;
+		}		
+		div.bb-8-oya .bb-8-down-in {
+			border: 15px orange solid;
+			background: white;
+			width: 110px;
+			height: 110px;
+			position: absolute;
+			top: 90px;
+			left: 70px;
+			border-radius: 130px 100px 130px 100px/100px 130px 100px 130px;
+			box-sizing: border-box;
+		}
+		div.bb-8-oya .bb-8-up-in2 {
+			background: red;
+			width: 7px;
+			height: 7px;
+			border-radius: 20px;
+			position: absolute;
+			top: 32px;
+			left: 133px;
+			box-shadow: -1px -1px 2px 2px red /*inset */;
+		}
+		div.bb-8-oya .bb-8-up-in3 {
+			background: white;
+			width: 4px;
+			height: 4px;
+			border-radius: 20px;
+			position: absolute;
+			top: 23px;
+			left: 142px;
+			box-shadow: 0px -0px 2px 2px white /*inset */;
+*/		}
+div.bb-8-down-inright {
+			border: 10px orange solid;
+			background: white;
+			width: 47px;
+			height: 108px;
+			position: absolute;
+			top: 91px;
+			left: 190px;
+/*			border-top-left-radius: 0;
+			border-top-right-radius: 200px;
+			border-bottom-right-radius: 200px;
+			border-bottom-left-radius: 0;*/
+			box-sizing: border-box;
+			border-radius: 0px 134px 0px 140px/4px 190px 0px 330px;
+
+}
+div.bb-8-oya .bb-8-head {
+	width: 3px;
+	height: 37px;
+	background-color: gray;
+	position: absolute;
+	top: -37px;
+	left: 129px;
+}
+div.bb-8-oya .bb-8-head2 {
+		width: 3px;
+	height: 70px;
+	background-color: gray;
+	position: absolute;
+	top: -70px;
+	left: 145px;
+}
+		div#container {
+		width: 80%;
+		margin: 0px auto;
+		color: #fff;
+		background: #333;
+		padding: 30px ;
+		/*overflow: hidden;*/
+		}
+		h1 {
+			color: white;
+		}
+		h2{
+			color: orange;
+		}
+		img {
+			width: 200px;
+			border: black 5px solid;
+			margin-right: 20px;
+			float: left;
+			}
+		a {
+			color: red;
+			font-weight: bold;
+			font-size: 110%;
+			text-decoration: none;
+			}
+		a:hover {
+			color: gold;
+			font-style: italic;
+			text-decoration: underline;
+			}
+		p.btn {
+			display: inline-block;
+			}
+		p.btn a {
+			background: url(../../html/images/images3/button.gif) no-repeat left top;
+			width: 140px;
+			height: 36px;
+			display: block;
+			color: black;
+			text-align: center;
+			font-size: 15px;
+			line-height:36px;
+			font-style: normal;
+			}
+		p.btn a:hover {
+			background: url(../../html/images/images3/button.gif) no-repeat right top;
+			color: green;
+			font-style: italic;
+			}
+		div#main {
+			width: 70%;
+			float: left;
+		}
+		.sun {
+			color: red;
+		}
+		.sat {
+			color: skyblue;
+		}
+		.anothermonth {
+			opacity: 0.2;
+		}
+		caption {
+			margin: 0 auto 10px;
+			color: orange;
+		}
+

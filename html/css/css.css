@@ -1,0 +1,95 @@
+div {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,155,255,1);
+	float: left;
+}
+.radius1 {
+	border-radius: 10px;
+}
+.radius2 {
+	border-radius: 50px;
+}
+.radius3 {
+	height: 50px;
+	border-radius: 50%;
+}
+.radius4 {
+	border-radius: 10px 20px 30px 40px;
+}
+.radius5 {
+	border-radius: 30px 0 0 30px;
+}
+.radius6 {
+	border-radius: 0 30px 30px 0;
+}
+.radius7 {
+	border-radius: 10px 20px 30px 40px / 40px 30px 20px 10px;
+}/*前半がX軸、後半がY軸*/
+.radius8 {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 40px;
+}
+div.oya {
+	position: relative;
+	background-color: white;
+}
+div.oya .ball1 {
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	height: 50px;
+	background-color: red;
+	border: black 5px solid;
+	border-bottom: black 2px solid;
+	border-color: black;
+	box-sizing: border-box;/*ボーダーを含めてこのサイズにします*/
+}
+div.oya .ball2 {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	height: 50px;
+  background-color: white;
+  border: black 5px solid;
+  border-top: black 2px solid;
+	border-color: black;
+		box-sizing: border-box;/*ボーダーを含めてこのサイズにします*/
+
+}
+div.oya .side {
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	position: absolute;
+	top: 31%;
+	left: 31%;
+	background-color: white;
+	border: 5px black solid;
+}
+div.oya .sideside {
+	width: 15px;
+	height: 15px;
+	border-radius: 50px;
+	position: absolute;
+	top: 43%;
+	left: 43%;
+	background-color: black;
+}
+
+#box-shadow {
+	clear: both;
+	width: 70%;
+	background-color: darkgreen;
+	box-shadow: 10px 10px 5px 5px gray /*inset*/ ;
+	/*４のpxはぼかすとことの開始位置*/　/*insetは*/
+}
+h1#title {
+	color: aqua;
+	font-size: 2em	;
+	text-shadow: 5px 5PX #000;
+}

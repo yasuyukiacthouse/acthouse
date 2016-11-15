@@ -1,0 +1,140 @@
+body {
+    width: 1300px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*z-index: 100;*/   
+    height: 90px;
+    border-bottom: solid 5px #E6E6E6;
+    background: rgba(0,0,0,0.4);
+    width: 1260px;
+}
+header dl {
+    margin: 20px 0 0 20px ;
+    list-style: square;
+}
+header dl#meet {
+    float: left;
+    margin: 20px 0 0 35px;
+}
+header dl#sonota dt {
+    float: left;
+    margin: 15px 0 0 20px;
+}
+header dl#sonota dt.sns1 {
+    margin: 0 0 0 220px;
+    opacity: 0.7;
+}
+header dl#sonota dt.sns2 {
+    margin: 0 0 0 20px ;
+    opacity: 0.7;
+}
+header dl#sonota dt img {
+    width: 60px;
+}
+header dl#sonota {
+    float: left;
+    margin-left: 20px;
+}
+header dd {
+    float: left;
+    margin-left: 25px;
+}
+header p {
+    display: inline-block;
+    /*margin: 0 10px 0 100px;*/
+}
+footer {
+    font: bold 80%/1em Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: #000000;
+    clear: both;
+    }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-style: italic;
+    color: gold;
+    font-size: 120%;
+
+}
+#girl1 {
+/*    position: absolute;   
+*/    bottom: 0;
+/*    z-index: 100;
+*/    width: 1260px;
+    height: 880px;
+    overflow: hidden;
+    background-image: url(../images/images3/girl1.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+/*        opacity: 0.5;
+*/
+    }
+h1 {
+    font-size: 350%;
+    margin: 520px 50px 0px;
+}
+h2 {
+    color:rgb(200,0,0);
+    font-size: 230%;
+}
+h2#Japan{
+    width: 400px;
+    height: 0px;
+    float: left;
+/*    margin: 100px 0px 0px 100px;
+*/    /*padding: 100px 0px 30px 50px;*/
+}
+h2#Philippines {
+    width: 400px;
+    height: 0;
+    float: left;
+    margin: 0 0 100px 0;
+    text-align: center;    
+}
+h2#Italy {
+    width: 400px;
+    height: 10px;
+    float: left;
+    margin: 100px 0 100px 200px;
+}
+h2#France {
+    width: 400px;
+    height: 10px;
+    float: left;
+    margin: 100px 0 100px 100px;
+}
+.girljp {
+    width: 630px;
+    height: 510px;
+    /*margin: -100px 0 0 0;*/
+}
+.jpsee {
+    width: 630px;
+    height: 260px; 
+    margin: 0 0 40px 0;
+}
+img:hover {
+    opacity: 0.7
+}
+
+.girlif {
+    width: 630px;
+    height: 510px;
+    float: left;
+}
+.ifsee {
+    width: 630px;
+    height: 260px;
+    margin: 0 0 0 0;
+}
+
+

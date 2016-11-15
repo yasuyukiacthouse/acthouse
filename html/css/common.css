@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: green;
+	font-family: Arial, sans-serif;
+	/*line-height: 16px;*/
+	/*background: url(../images/images3/pattern.jpg);*/
+	background: linear-gradient(to right bottom,white 10% ,green 40%,blue 60%,white 90%);
+}
+ul {
+	list-style: square;
+}
+li {
+	display: inline-block;
+}
+div#container {
+		color: #660000;
+		width: 960px;
+		margin: 0 auto;
+		padding: 30px;
+		background: #ffffff;
+		overflow: hidden;
+		}
+div#header-inner {
+			width: 960px;
+			margin: 0 auto;
+		}
+	div#sidebar {
+	width: 30%;
+	float: left;
+}
+	div#main {
+	width: 70%;
+	float: left;
+}
+header {
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px;
+	border: red 10px solid;
+	/*background: #333333;*/
+	background: radial-gradient(ellipse farthest-corner at center,
+	red ,yellow 50% ,green) ;
+	color: green;
+}
+footer {
+	font: bold 80%/1em Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	background: #000000;
+	clear: both;
+}
+		span {
+			color: #004499;
+		}
+		img {
+			width: 200px;
+			float: left;
+			margin-right: 20px;
+			/*border-style: none;*/
+			border :red 10px solid;
+		}
+		a {
+			font-size: 150%;
+			font-weight: bold;
+			color: gold;
+			text-decoration: none;
+		}
+		a:link {
+			color: green;
+		}
+		a:visited {
+			color: blue;
+		}
+		a:hover {
+			color: red;
+			text-decoration: underline;
+			font-style: italic;
+		}
+		a:active {
+			color: silver;
+		}
+		.btn {
+			display: inline-block;
+		}
+		.btn a {
+			background: url(../images/images3/button.gif) no-repeat left top;
+			width: 140px;
+			height: 36px;
+			display: block;
+			color: #ffffff;
+			font-size: 15px;
+			line-height:36px;
+			text-align: center;
+			font-style: normal;
+		}
+		.btn a:hover {
+			background: url(../images/images3/button.gif) no-repeat right top;
+		}
+		dl.sidemenu {
+			margin: 0px;
+			padding: 0px 0px 10px;
+			background: #dff4e7;
+			width: 240px;
+		}
+
+		dl.sidemenu dt {
+			background: url(../images/images3/dt_bg.jpg) repeat-x;
+			height: 32px;
+			width: 240px;/*省略可*/
+			font-size: 15px;
+			line-height: 32px;
+			font-weight: bold;
+			color: #fff;
+			text-indent: 0.7em;
+			margin-bottom: 5px;
+		}
+		dl.sidemenu dd a {
+			color: #666;
+			/*background: url(../images/images3/dt_bg.gif) no-repeat 0px 0px;*/
+			/*text-decoration: none;*/
+			padding-left: 14px;
+		}
+		dl.sidemenu dd a:hover{
+			color: #f90;
+			/*background: url(../images/images/dd_bg.gif) no-repeat 2px 0px;*/
+		}
+	div#fadnclub {
+		padding-top: 100px;
+	}
+
+
+		

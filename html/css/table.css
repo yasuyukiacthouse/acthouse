@@ -1,0 +1,37 @@
+table {
+	width: 100%;
+	margin: 20px 0 50px;
+/*	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;*/
+	border: 3px solid #ccc;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+table tr th, table tr td{
+	font-size: 12px;
+	border: 1px solid #ccc;
+/*	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;*/
+	padding: 7px;
+}
+table tr th {
+	background: #e6eaff;
+}
+table.me tr td {
+	background: skyblue;
+	color:white;
+}
+table.me tr th{
+	background: red;
+}
+tr.mae {
+	color: rgba(0,0,0,0.4);
+}
+#sun {
+	background: rgba(255,0,0,0.2);
+}
+#sat {
+	background: rgba(0,0,255,0.2);
+}
+
+
