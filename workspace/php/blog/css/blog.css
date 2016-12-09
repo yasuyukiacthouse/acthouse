@@ -1,0 +1,241 @@
+
+* {
+	background-color: #efefef;
+	margin: 0;
+	/*font-family: "FOT-筑紫B丸ゴシック Std D";*/
+	/*font-family: "FOT-筑紫B丸ゴシック Std D", sans-serif;*/
+	font-family: Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+.all {
+  padding-top: 30px;
+	color: #666;
+	width: 1300px;
+}
+h1#title {
+	text-align: center;
+	font-size: 50px;
+}
+div.header {
+	padding-left: 20px;
+}
+
+div.header a {
+	float: left;
+	padding: 0 10px;
+	border-right: gray 1px solid;
+	transition: all 0.5s;
+	text-decoration: none;
+	color: #666;
+}
+
+div.header a:hover {
+	background-color: #ddd;
+}
+
+.image-selection {
+	width: 1300px;
+	height: 270px;
+	margin-top: 40px;
+	display: none;
+}
+#first-image1 {
+	background: url(../images/header_image_sns.jpg) no-repeat top center;
+	background-size: cover;
+}
+#first-image2 {
+	background: url(../images/aburae.jpg) no-repeat 0 40%;
+	background-size: cover;
+}
+#first-image3 {
+	background: url(../images/yakei.jpg) no-repeat top center;
+	background-size: cover;
+}
+#first-image4 {
+	background: url(../images/forest.jpg) no-repeat top center;
+	background-size: cover;
+}
+.active {
+	display: block;
+}
+.full-btn {
+	margin: 20px 43%;
+	/*text-align: center;*/
+	width: 100%;
+}
+.btn {
+	background-color: rgba(200, 200, 200, 0.4);
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 20px;
+	float: left;
+	margin-right: 18px;
+	cursor: default;
+	transition: all 0.5s;
+}
+.btn:hover {
+	background-color: rgba(200, 200, 200, 0.9);
+}
+.container {
+	width: 75%;
+	float: left;
+	padding: 60px 20px 0 20px;
+}
+
+.article {
+/*	height: 160px;
+	margin-bottom: 40px;*/
+}
+.blog-date {
+	float: left;
+	padding: 0 50px 0 50px;
+	line-height: 150px;
+	font-style: italic;
+}
+.blog-container {
+	padding: 10px 0 0 430px;
+	/*float: left;*/
+	clear: both;
+	margin-top: -50px
+}
+
+.blog-title {
+	color: black;
+	font-style: italic;
+	font-size: 1.4em;
+}
+
+.blog-honbun {
+	padding-top: 10px;
+}
+.blog-image-size {
+	width: 200px;
+	height: 160px;
+	overflow: hidden;
+	/*float: left;*/
+}
+.blog-image {
+	width: 200px;
+	height: 160px;
+	float: left;
+	/*transition: all 0.5s;*/
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+img.blog-image:hover {
+	opacity: 0.6;
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+
+}
+
+.sidebar-right {
+	width: 25%;
+	float: left;
+	padding: 60px 0 0 20px;
+}
+
+.sidebar-right h3 {
+	border-bottom: 1px solid #aaa;
+	/*width: 200px;*/
+	width: 80%;
+	margin-bottom: 15px;
+}
+
+.sidebar-right ul {
+	margin-bottom: 30px;
+}
+
+.sidebar-right li {
+}
+
+.line {
+	border-bottom: 1px dotted gray;
+	clear: both;
+	width: 750px;
+	margin: 50px 0 0 200px;
+	padding-top: 20px;
+	/*display: inline-block; 	*/
+}
+
+.nextpage {
+	margin: 10px 0 0 850px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #666;
+}
+
+.nextpage:hover {
+	font-style: italic;
+}
+
+.top a {
+	/*clear: both;*/
+	float: right;
+	display: block;
+	width: 133px;
+	height: 15px;
+	background: url(../images/top.jpg) no-repeat left top;
+	margin: 50px 100px 100px 0;
+
+}
+
+.top a:hover {
+	background: url(../images/top.jpg) no-repeat left bottom;
+	display: block;
+}
+
+.menu-bottom {
+	padding-right: 20px;
+	font-size: 15px;
+	margin: 120px 0 0 220px;
+	clear: both;
+}
+
+.menu-bottom a {
+	float: left;
+	padding: 0 10px;
+	border-right: gray 1px solid;
+	transition: all 0.5s;
+	text-decoration: none;
+	color: #666;
+}
+
+.menu-bottom a:hover {
+	background-color: #ddd;
+}
+
+div.copyright {
+    font-family: 'Questrial', sans-serif;
+    position: fixed;
+    bottom: 130px;
+    left: 1100px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    color: black;
+}
+
+footer {
+	width: 100%;
+	height: 70px;
+	background-color: #FFF8DC;
+	clear: both;
+	margin: 50px 0 0 0;
+	/*color: white;*/
+	text-align: center;
+	line-height: 70px;
+	font-size: 80%;
+	font-style: italic;
+}
+
